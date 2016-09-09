@@ -6,3 +6,4 @@ applications:
   domain: stage1.mybluemix.net
   env:
     FORCE_HTTPS: true
+    ENDPOINT: https://jenkins.io
