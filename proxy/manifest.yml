@@ -1,9 +1,9 @@
 ---
 applications:
-- name: jenkins-proxy
+- name: trashyourapp
   buildpack: staticfile_buildpack
   memory: 64M
-  domain: stage1.mybluemix.net
+  domain: mybluemix.net
   env:
     FORCE_HTTPS: true
     ENDPOINT: https://jenkins.io
