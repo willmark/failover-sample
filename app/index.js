@@ -1,7 +1,7 @@
 var http = require('http');
 
 var server = http.createServer(function (req, res) {
-  res.end('<h1>' + require('os').hostname() + '</h1>');
+  res.end('<h1>your server hostname here</h1>');
 });
 
 server.on('error', function (err) {
