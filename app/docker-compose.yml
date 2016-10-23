@@ -1,6 +1,12 @@
 version: "2"
 services:
   app:
-     build: .
+     image: node:4-onbuild
      ports:
-        - 80:80
+        - 80:8080
+     volumes:
+        - ./package.json:/usr/src/app/package.json
+        - ./index.js:/usr/src/app/index.js
+     environment:
+        - PORT=8080
+        - HOSTNAME=${HOSTNAME}
