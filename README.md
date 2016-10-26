@@ -5,7 +5,7 @@ This failover sample illustrates how an application can improve reliability and 
 by deployment across multiple VM's and inserting a reverse proxy to distribute the client
 requests.
 ```
-[![Slide 1](/img/001.jpeg "Slide 1")](https://vimeo.com/188982122)
+[![Slide 1](/img/001.jpeg "Slide 1")](https://player.vimeo.com/video/188982122)
 ![Slide 2](/img/002.jpeg "Slide 1")
 ![Slide 3](/img/003.jpeg "Slide 1")
 ![Slide 4](/img/004.jpeg "Slide 1")
